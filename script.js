@@ -17,7 +17,7 @@ async function getDataOfDynamicWeb() {
             const data = await page.evaluate(() => {
                 const quotes = document.querySelectorAll(".quote");
                 
-                // page.screenshot({path: 'exampleImg.png'});
+                // page.screenshot({path: 'exampleImg.png'})
                 
                 const subData = [...quotes].map((quote) => {
                     const quoteText = quote.querySelector(".text").innerHTML;
