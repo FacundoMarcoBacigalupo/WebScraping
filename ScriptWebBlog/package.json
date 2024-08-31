@@ -1,5 +1,5 @@
 {
-  "name": "web-scraping",
+  "name": "scriptwebblog",
   "version": "1.0.0",
   "main": "script.js",
   "type": "module",
@@ -11,6 +11,6 @@
   "license": "ISC",
   "description": "",
   "dependencies": {
-    "puppeteer": "^23.2.0"
+    "puppeteer": "^23.2.1"
   }
 }
